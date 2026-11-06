@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+build/
+coverage/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
